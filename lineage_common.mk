@@ -5,7 +5,7 @@
 #
 
 # Overlays
-DEVICE_PACKAGE_OVERLAYS += device/google/gs201/overlay-yaap
+DEVICE_PACKAGE_OVERLAYS += device/google/gs201/overlay-lineage
 
 # AiAi Config
 PRODUCT_COPY_FILES += \
