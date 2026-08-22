@@ -5,6 +5,9 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
+DISABLE_ARTIFACT_PATH_REQUIREMENTS := true
+RELAX_USES_LIBRARY_CHECK := true
+
 include build/make/target/board/BoardConfigMainlineCommon.mk
 include build/make/target/board/BoardConfigPixelCommon.mk
 
