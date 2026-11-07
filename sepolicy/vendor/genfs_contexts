@@ -410,3 +410,6 @@ genfscon sysfs /thermal_zone14/mode u:object_r:sysfs_thermal:s0
 genfscon sysfs /wifi u:object_r:sysfs_wifi:s0
 genfscon sysfs /wlan_ptracker u:object_r:sysfs_ptracker:s0
 genfscon tracefs /events/dmabuf_heap/dma_heap_stat u:object_r:debugfs_tracing:s0
+
+genfscon sysfs /devices/platform/1c2c0000.drmdsim/1c2c0000.drmdsim.0/backlight/panel0-backlight/brightness u:object_r:sysfs_pixelparts_leds:s0
+genfscon sysfs /devices/platform/1c2c0000.drmdsim/1c2c0000.drmdsim.0/backlight/panel0-backlight/max_brightness u:object_r:sysfs_pixelparts_leds:s0
